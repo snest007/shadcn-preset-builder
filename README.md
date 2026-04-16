@@ -73,6 +73,28 @@ npm run build
 4. Select `manifest.json` from this repository.
 5. Run the plugin from the Development plugins list.
 
+## Internal Distribution
+
+Create a shareable internal build:
+
+```bash
+npm run package
+```
+
+This command:
+
+- builds the plugin runtime and UI
+- copies `manifest.json`, `dist/`, and `README.md` into `release/`
+- creates a versioned zip file you can send to teammates
+
+The generated archive will be written to:
+
+```text
+release/shadcn-preset-builder-v<version>-internal.zip
+```
+
+After unzipping, teammates can import the included `manifest.json` from Figma Desktop using the same `Plugins > Development > Import plugin from manifest...` flow above.
+
 ## Current Capabilities
 
 - Choose a style preset such as `nova`, `vega`, `maia`, `lyra`, `mira`, or `luma`

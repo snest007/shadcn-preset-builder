@@ -1,5 +1,5 @@
 {
-  "name": "Shadcn Theme Designer",
+  "name": "Shadcn Preset Builder",
   "api": "1.0.0",
   "editorType": ["figma"],
   "main": "dist/code.js",

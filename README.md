@@ -1,6 +1,6 @@
-# Shadcn Theme Designer
+# Shadcn Preset Builder
 
-Shadcn Theme Designer is a Figma plugin for applying shadcn-style design system settings directly inside a Figma file.
+Shadcn Preset Builder is a Figma plugin for building and applying shadcn-style design system presets directly inside a Figma file.
 
 It combines a React-based plugin UI with a Figma plugin runtime that can:
 

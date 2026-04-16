@@ -1,11 +1,11 @@
 {
-  "name": "shadcn-theme-designer",
-  "description": "Figma plugin for applying shadcn-style theme variables, fonts, radii, and presets.",
+  "name": "shadcn-preset-builder",
+  "description": "Figma plugin for building and applying shadcn-style presets, tokens, fonts, and radii.",
   "version": "1.0.0",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git@github.com:snest007/Shadcn-Theme-Designer.git"
+    "url": "git@github.com:snest007/shadcn-preset-builder.git"
   },
   "keywords": [
     "figma-plugin",

@@ -1,0 +1,7 @@
+{
+  "name": "Shadcn Theme Designer",
+  "api": "1.0.0",
+  "editorType": ["figma"],
+  "main": "dist/code.js",
+  "ui": "dist/index.html"
+}
